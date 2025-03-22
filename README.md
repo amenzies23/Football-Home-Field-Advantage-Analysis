@@ -1,84 +1,20 @@
 # CMPT353-FinalProject
 Final Project for the MoneyBall Group for SFU's FALL 2024 CMPT 353 class
 
+This was a group project with two other students, but our work was independent of each other. So the work in this repository was fully completed by myself.
 ## Project Structure (to be updated)
 ```bash
 repository
-├── covid-19
-│   ├── src
-│   │   ├── utility.py
-│   ├── analyze_teams.ipynb
-│   ├── epl_overall_players_performance.ipynb
-│   ├── epl_players_data_2014_2015.json
-│   ├── epl_players_data_2015_2016.json
-│   ├── epl_players_data_2016_2017.json
-│   ├── epl_players_data_2017_2018.json
-│   ├── epl_players_data_2018_2019.json
-│   ├── epl_players_data_2019_2020.json
-│   ├── epl_players_data_2020_2021.json
-│   ├── epl_players_data_2021_2022.json
-│   ├── epl_players_data_2022_2023.json
-│   ├── epl_players_data_2023_2024.json
-│   ├── epl_team_data_2020_2021.json
-│   ├── epl_teams_data_2019_2020.json
-├── data
-│   ├── 2020
-│   │   ├── Bundesliga-2020.csv
-│   │   ├── EPL-2020.csv
-│   │   ├── La_Liga-2020.csv
-│   │   ├── ...
-│   ├── 2023
-│   │   ├── Bundesliga-2023.csv
-│   │   ├── EPL-2023.csv
-│   │   ├── La_Liga-2023.csv
-│   │   ├── ...
-│   ├── Bundesliga_2020
-│   │   ├── pvalue
-│   │   │   ├── Bundesliga_2020_with_pvalue.csv
-│   │   ├── Arminia_Bielefeld_Matches_2020.csv
-│   │   ├── Augsburg_Matches_2020.csv
-│   │   ├── ...
-│   ├── Bundesliga_2023
-│   │   ├── pvalue
-│   │   │   ├── Bundesliga_2023_with_pvalue.csv
-│   │   ├── Augsburg_Matches_2023.csv
-│   │   ├── Bayer_Leverkusen_Matches_2023.csv
-│   │   ├── ...
-│   ├── EPL_2020
-│   │   ├── pvalue
-│   │   │   ├── EPL_2020_with_pvalues.csv
-│   │   ├── Arsenal_Matches_2020.csv
-│   │   ├── Aston_Villa_Matches_2020.csv
-│   │   ├── ...
+├── performanceData
+│   ├── EPL_2015_matchsheets.csv
 │   ├── ...
-├── graphs
+├── performancePlots
+│   ├── boxPlots
+│   ├── histograms
 │   ├── scatterplots
-│   │   ├── Bundesliga
-│   │   │   ├── Bundesliga_2020_scatterplots.png
-│   │   │   ├── ...
-│   │   ├── EPL
-│   │   │   ├── EPL_2020_scatterplots.png
-│   │   │   ├── ...
-│   │   ├── ...
-├── performance
-│   ├── performanceData
-│   │   ├── EPL_2015_matchsheets.csv
-│   │   ├── ...
-│   ├── performancePlots
-│   │   ├── boxPlots
-│   │   ├── histograms
-│   │   ├── scatterplots
-│   │   ├── stackedBarPlots
-│   ├── analysePerformance.py
-│   ├── gatherPerformanceData.ipynb
-├── analyseData.py
-├── cleanData.py
-├── dataBoxplot.py
-├── dataHistogram.py
-├── gatherData.py
-├── leagueDataBoxPlot.py
-├── leagueDataHistogram.py
-├── leagueDataScatter.py
+│   ├── stackedBarPlots
+├── analysePerformance.py
+├── gatherPerformanceData.ipynb
 ```
 
 ## Libraries required
